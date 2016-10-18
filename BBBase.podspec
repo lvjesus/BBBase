@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
 
   # ―――  Spec Metadata  ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   s.name         = "BBBase"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "项目中常用的代码."
   s.description  = <<-DESC
   					项目中常用的代码，方便以后调用。
@@ -59,7 +59,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/lvjesus/BBBase.git", :tag => "0.0.1" }
+  s.source       = { :git => "https://github.com/lvjesus/BBBase.git", :tag => s.version }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
