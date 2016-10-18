@@ -1,10 +1,3 @@
-#
-#  Be sure to run `pod spec lint BBBase.podspec' to ensure this is a
-#  valid spec and to remove all comments including this before submitting the spec.
-#
-#  To learn more about Podspec attributes see http://docs.cocoapods.org/specification.html
-#  To see working Podspecs in the CocoaPods repo see https://github.com/CocoaPods/Specs/
-#
 
 Pod::Spec.new do |s|
 
@@ -59,7 +52,7 @@ LICENSE
    s.platform     = :ios, "7.0"
 
   #  When using multiple platforms
-  # s.ios.deployment_target = "5.0"
+   s.ios.deployment_target = "7.0"
   # s.osx.deployment_target = "10.7"
   # s.watchos.deployment_target = "2.0"
   # s.tvos.deployment_target = "9.0"
@@ -85,8 +78,7 @@ LICENSE
   #s.source_files  = "BBBaseClass", "BBBaseClass/**/*.{h,m}"
   s.source_files  = "BBBaseClass/*"
   #s.exclude_files = "Classes/Exclude"
-
-  # s.public_header_files = "/BBBaseClass/Constants/BBBaseMacro.h"
+  s.public_header_files = "/BBBaseClass/Constants/BBBaseMacro.h"
 
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
