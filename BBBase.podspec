@@ -78,7 +78,7 @@ LICENSE
   #s.source_files  = "BBBaseClass", "BBBaseClass/**/*.{h,m}"
   s.source_files  = "BBBaseClass/*"
   #s.exclude_files = "Classes/Exclude"
-  s.public_header_files = "/BBBaseClass/Constants/BBBaseMacro.h"
+  #s.public_header_files = "/BBBaseClass/Constants/BBBaseMacro.h"
 
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
