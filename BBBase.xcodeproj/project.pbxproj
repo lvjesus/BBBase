@@ -63,6 +63,7 @@
 		50CB62651DB6288D00505941 /* Nav_back@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Nav_back@2x.png"; sourceTree = "<group>"; };
 		50CB62661DB6288D00505941 /* Nav_back@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Nav_back@3x.png"; sourceTree = "<group>"; };
 		50CB626A1DB629D700505941 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		50CB626B1DB66B5900505941 /* BBBaseMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BBBaseMacro.h; sourceTree = "<group>"; };
 		8429E0C012B29AFD90653808 /* Pods-BBBase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BBBase.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BBBase/Pods-BBBase.debug.xcconfig"; sourceTree = "<group>"; };
 		A6A0F3C49C6446366F14EBB9 /* Pods-BBBase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BBBase.release.xcconfig"; path = "Pods/Target Support Files/Pods-BBBase/Pods-BBBase.release.xcconfig"; sourceTree = "<group>"; };
 		CF7827086A69C38802C885B8 /* libPods-BBBase.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BBBase.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -168,6 +169,7 @@
 				50CB62561DB627BD00505941 /* Singleton.h */,
 				50CB62571DB627BD00505941 /* UIViewController+Log.h */,
 				50CB626A1DB629D700505941 /* PrefixHeader.pch */,
+				50CB626B1DB66B5900505941 /* BBBaseMacro.h */,
 			);
 			path = Constants;
 			sourceTree = "<group>";
